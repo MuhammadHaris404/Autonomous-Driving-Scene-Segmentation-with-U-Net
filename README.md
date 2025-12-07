@@ -157,6 +157,8 @@ The project demonstrates:
 
 Visual outputs prove that U Net can reliably interpret complex driving scenes.
 
+<img width="1191" height="682" alt="Image" src="https://github.com/user-attachments/assets/3efa5948-1e7e-44c3-9cbb-9ae8c8547e62" />
+
 ---
 
 ## Key Observations
