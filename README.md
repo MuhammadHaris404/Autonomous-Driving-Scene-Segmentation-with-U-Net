@@ -7,6 +7,11 @@
 
 Autonomous vehicles require pixel level understanding of the environment for safe navigation. Traditional computer vision methods fail in complex situations like occlusions, shadows, bright lights, rain, and urban clutter. The challenge is to segment CARLA road scene images into meaningful classes including roads, vehicles, pedestrians, sidewalks, buildings, vegetation, sky, and background. U Net provides an effective end to end learning solution for pixelwise segmentation. This project uses a U Net based deep learning model to perform pixel level semantic segmentation on CARLA simulator images. The goal is to classify each pixel of a driving scene into categories such as road, vehicles, pedestrians, buildings, vegetation, and background. The project demonstrates how deep learning improves scene understanding for autonomous driving systems.
 
+
+<img width="1873" height="1020" alt="Image" src="https://github.com/user-attachments/assets/0b12fc7a-6b0e-4fca-932b-d45ddbb4a36f" />
+
+<img width="1876" height="1009" alt="Image" src="https://github.com/user-attachments/assets/813bfa17-1ba6-46d4-a616-b9265e9a5456" />
+
 ---
 
 ## Dataset Information
@@ -27,6 +32,8 @@ Advantages:
 * No noise or annotation errors
 * Helps build strong baseline models before moving to real datasets
 
+<img width="1872" height="1011" alt="Image" src="https://github.com/user-attachments/assets/e7662c02-4eb7-4e50-9301-39957addc2e6" />
+
 ---
 
 ## Data Preprocessing
@@ -46,6 +53,8 @@ Preprocessing ensures the model receives uniform and clean inputs, improving acc
 ---
 
 ## U Net Model Architecture
+
+<img width="318" height="159" alt="Image" src="https://github.com/user-attachments/assets/e4ab6e39-a415-4ed4-bbca-6b8d2513aead" />
 
 The model follows the original U Net structure:
 
@@ -70,6 +79,8 @@ The model follows the original U Net structure:
 
 * Produces a multi class segmentation map
 * Each pixel receives a probability for each class
+
+<img width="1875" height="1012" alt="Image" src="https://github.com/user-attachments/assets/610b4322-1de9-4e23-b39c-7eed9b3cd6c0" />
 
 ---
 
