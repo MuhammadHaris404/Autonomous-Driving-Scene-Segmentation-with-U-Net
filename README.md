@@ -16,6 +16,7 @@ Autonomous vehicles require pixel level understanding of the environment for saf
 
 ## Dataset Information
 
+
 Dataset Source: **CARLA Simulator Semantic Segmentation Dataset**
 This dataset includes synthetic driving scenes with perfectly labeled ground truth masks.
 
